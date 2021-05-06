@@ -15,7 +15,7 @@ driver = webdriver.Chrome(options=options, executable_path="chromedriver.exe")
 
 
 def views(Url):
-    driver.get('https://vipto.de/')
+    driver.get('https://zefoy.com/')
     sleep(10)
 
     try:
